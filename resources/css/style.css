@@ -1,0 +1,51 @@
+/* Font Declarations */
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/AvenirLTProLight.otf") format("opentype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/AvenirLTProMedium.otf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/AvenirLTProBlack.otf") format("opentype");
+    font-weight: 900;
+}
+
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+
+/* Banner */
+
+/* Information */
+
+/* Course */
+
+/* Thesis */
+
+/* Footer */
+
+@media only screen and (max-width: 768px) {
+    /* Navigation - mobile */
+
+    /* Banner - mobile */
+
+    /* Information - mobile */
+
+    /* Course - mobile */
+
+    /* Thesis - mobile */
+
+    /* Footer - mobile */
+}
