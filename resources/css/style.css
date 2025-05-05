@@ -24,8 +24,42 @@
     box-sizing: border-box;
 }
 
-/* Navigation */
+body {
+    font-family: "Avenir", sans-serif;
+}
 
+.hidden {
+    display: none;
+}
+
+/* Navigation */
+nav#large {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    height: 64px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+nav#large .logo {
+    height: 32px;
+}
+
+nav#large ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+nav#large ul li a {
+    font-weight: 100;
+    text-decoration: none;
+    color: #4a4a4a;
+}
 /* Banner */
 
 /* Information */
@@ -36,9 +70,27 @@
 
 /* Footer */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 550px) {
     /* Navigation - mobile */
+    nav#large {
+        display: none;
+    }
 
+    nav#mobile {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        display: block;
+        padding: 24px;
+        height: 64px;
+    }
+
+    nav#mobile ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
     /* Banner - mobile */
 
     /* Information - mobile */
