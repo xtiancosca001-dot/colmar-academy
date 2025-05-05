@@ -22,9 +22,9 @@
 [x] Navigation Bar
     [x] Regular
     [x] Responsive
-[] Banner 
-    [] Regular
-    [] Responsive
+[x] Banner 
+    [x] Regular
+    [x] Responsive
 [] Information
     [] Regular
     [] Responsive
