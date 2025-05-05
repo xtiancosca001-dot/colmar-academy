@@ -26,7 +26,7 @@
     [x] Regular
     [x] Responsive
 [] Information
-    [] Regular
+    [x] Regular
     [] Responsive
 [] Course
     [] Regular
