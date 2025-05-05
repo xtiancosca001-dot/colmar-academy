@@ -2,6 +2,7 @@
 
 # color picker:
 - background - card: #d8d8d8
+- courses - card: #eaebec
 - text / buttons: #4a4a4a
 
 # mobile
