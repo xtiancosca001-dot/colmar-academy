@@ -48,6 +48,16 @@ h2 {
     font-weight: 500;
 }
 
+p {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: #4c91e2;
+}
+
 /* Navigation */
 nav#large {
     display:flex;
@@ -120,6 +130,66 @@ nav#large ul li a {
 }
 /* Information */
 
+.information {
+    display:flex;
+}
+
+/* Information - Main */
+.information .info-main {
+    width: 60%;
+    padding: 32px 24px;
+    line-height: 1.4;
+    border-right: 1px solid #d8d8d8;
+}
+
+.information .info-main .info-main-img {
+    width: 60%;
+    object-fit: contain;
+}
+
+.information .info-main h1 {
+    margin: 32px 0 24px;
+}
+
+.information .info-main p#strategist-name {
+    margin-top: 32px;
+}
+
+/* Information - Details */
+.information .details {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+/* Information - Details - Details Card */
+
+.information .details .details-card {
+    display: flex;
+    padding: 16px;
+    border: 1px solid #d8d8d8;
+}
+
+.information .details .details-card .details-img-desktop {
+    width: 35%;
+    height: auto;
+    object-fit: contain;
+    margin-right: 16px;
+}
+
+.information .details .details-card .details-text {
+    width: 65%;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Special details card - For the Lecturer : Oliver Sack */
+.information .details .details-card#lecturer {
+    background-color: #d8d8d8;
+}
+
 /* Course */
 
 /* Thesis */
@@ -153,7 +223,7 @@ nav#large ul li a {
     nav#mobile ul li {
         list-style-type: none;
     }
-    
+
     /* Banner - mobile */
 
     .banner {
