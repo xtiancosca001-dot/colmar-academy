@@ -29,7 +29,7 @@
     [x] Regular
     [x] Responsive
 [] Course
-    [] Regular
+    [x] Regular
     [] Responsive
 [] Thesis
     [] Regular

@@ -188,9 +188,42 @@ nav#large ul li a {
 /* Special details card - For the Lecturer : Oliver Sack */
 .information .details .details-card#lecturer {
     background-color: #d8d8d8;
+    margin-bottom: 64px;
 }
 
 /* Course */
+.course {
+    padding: 32px 72px;
+    background-color: #eaebec;
+}
+
+.course .course-cards {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.course .course-cards .course-card {
+    display: flex;
+    width: calc(90%/3);
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.course .course-cards .course-card .course-card-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.course .course-cards .course-card .course-card-text {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    line-height: 1.4;
+    padding: 16px 16px 24px;
+}
 
 /* Thesis */
 
