@@ -28,9 +28,9 @@
 [x] Information
     [x] Regular
     [x] Responsive
-[] Course
+[x] Course
     [x] Regular
-    [] Responsive
+    [x] Responsive
 [] Thesis
     [] Regular
     [] Responsive

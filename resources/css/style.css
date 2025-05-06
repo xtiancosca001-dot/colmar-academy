@@ -197,6 +197,11 @@ nav#large ul li a {
     background-color: #eaebec;
 }
 
+.course h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 .course .course-cards {
     display: flex;
     gap: 32px;
@@ -223,6 +228,11 @@ nav#large ul li a {
     flex-direction: column;
     line-height: 1.4;
     padding: 16px 16px 24px;
+}
+
+.course .course-cards .course-card h2 {
+    padding-top: 16px;
+    margin-left: 16px;
 }
 
 /* Thesis */
@@ -323,6 +333,39 @@ nav#large ul li a {
     }
 
     /* Course - mobile */
+
+    .course {
+        padding: 32px 16px;
+        background-color: #fff;
+        border: 1px solid #d8d8d8;
+    }
+
+    .course h1 {
+        margin-bottom:16px;
+    }
+
+    .course .course-cards {
+        gap: 8px;
+    }
+
+    .course .course-cards .course-card {
+        width: 100%;
+        background-color: #d8d8d8;
+    }
+
+    .course .course-cards .course-card h2 {
+        padding: 16px 16px 24px;
+        margin: 0;
+    }
+
+    .course .course-cards .course-card .course-img,
+    .course .course-cards .course-card .course-card-text {
+        display: none;
+    }
+
+    .course .course-cards .course-card .course-card-text h2 {
+        display: block;
+    }
 
     /* Thesis - mobile */
 
