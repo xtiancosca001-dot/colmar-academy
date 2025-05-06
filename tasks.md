@@ -31,7 +31,7 @@
 [x] Course
     [x] Regular
     [x] Responsive
-[] Thesis
-    [] Regular
-    [] Responsive
+[x] Thesis
+    [x] Regular
+    [x] Responsive
 [] Footer

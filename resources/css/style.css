@@ -155,29 +155,32 @@ nav#large ul li a {
     margin-top: 32px;
 }
 
-/* Information - Details */
+/* Information + Thesis - Details */
 .information .details {
     display: flex;
     flex-direction: column;
     width: 40%;
 }
 
-/* Information - Details - Details Card */
+/* Information + Thesis - Details - Details Card */
 
-.information .details .details-card {
+.information .details .details-card,
+.thesis .other-thesis .details .details-card  {
     display: flex;
     padding: 16px;
     border: 1px solid #d8d8d8;
 }
 
-.information .details .details-card .details-img-desktop {
+.information .details .details-card .details-img-desktop,
+.thesis .other-thesis .details .details-card .details-img {
     width: 35%;
     height: auto;
     object-fit: contain;
     margin-right: 16px;
 }
 
-.information .details .details-card .details-text {
+.information .details .details-card .details-text,
+.thesis .thesis-exhibits .other-thesis .details .details-card .details-text {
     width: 65%;
     display: flex;
     gap: 8px;
@@ -236,6 +239,50 @@ nav#large ul li a {
 }
 
 /* Thesis */
+.thesis {
+    padding: 32px 24px;
+}
+
+.thesis h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.thesis .thesis-exhibits {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+.thesis .thesis-exhibits .urban {
+    width: 60%;
+}
+
+.thesis .thesis-exhibits .urban .urban-video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.thesis .thesis-exhibits .urban .urban-text {
+    line-height: 1.4;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thiesis .thesis-exhibits .other-thesis {
+    width: 40%;
+}
+
+.thesis .thesis-exhibits .other-thesis .details {
+    width: 100%;
+}
+
+.thesis .thesis-exhibits .other-thesis .details .details-card#fisma {
+    background-color: #d8d8d8;
+}
+
 
 /* Footer */
 
@@ -368,6 +415,25 @@ nav#large ul li a {
     }
 
     /* Thesis - mobile */
+    .thesis {
+        padding: 0;
+    }
 
+    .thesis h1 {
+        margin: 32px 0 16px;
+    }
+
+    .thesis .thesis-exhibits .urban .urban-text,
+    .thesis .thesis-exhibits .other-thesis {
+        display:none;
+    }
+
+    .thesis .thesis-exhibits .urban {
+        width: 100%;
+    }
+
+    .thesis .thesis-exhibits .urban .urban-video {
+        margin-bottom: 24px;
+    }
     /* Footer - mobile */
 }
