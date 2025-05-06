@@ -35,3 +35,5 @@
     [x] Regular
     [x] Responsive
 [] Footer
+    [x] Regular
+    [] Responsive

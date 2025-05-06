@@ -283,8 +283,25 @@ nav#large ul li a {
     background-color: #d8d8d8;
 }
 
-
 /* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background-color: #fff;
+    border-top: 1px solid #d8d8d8;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+footer ul li a {
+    font-weight: 100;
+    color: #4a4a4a;
+}
 
 @media only screen and (max-width: 574px) {
     /* Navigation - mobile */
