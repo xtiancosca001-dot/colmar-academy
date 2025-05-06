@@ -25,9 +25,9 @@
 [x] Banner 
     [x] Regular
     [x] Responsive
-[] Information
+[x] Information
     [x] Regular
-    [] Responsive
+    [x] Responsive
 [] Course
     [] Regular
     [] Responsive

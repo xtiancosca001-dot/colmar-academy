@@ -196,7 +196,7 @@ nav#large ul li a {
 
 /* Footer */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 574px) {
     /* Navigation - mobile */
     nav#large {
         display: none;
@@ -245,6 +245,49 @@ nav#large ul li a {
     }
 
     /* Information - mobile */
+
+    .information .info-main {
+        display: none;
+    }
+
+    .information .details {
+        width: 100%;
+    }
+
+    .information .details .details-card {
+        flex-direction: column;
+        padding: 0;
+        border: 0;
+        margin-bottom: 64px;
+    }
+
+    .information .details .details-card .details-img-desktop {
+        display: none;
+    }
+
+    .information .details .details-card .details-img-mobile {
+        display: block;
+        width: 100%;
+        padding: 16px;
+    }
+
+    .information .details .details-card .details-text {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .information .details .details-card#lecturer {
+        background-color: #fff;
+        margin-bottom: 32px;
+    }
+
+    .information .details .details-card#lecturer h2#guest-lecture {
+        display: none;
+    }
+
+    .information .details .details-card#lecturer h2#guest-lecture-mobile {
+        display: block;
+    }
 
     /* Course - mobile */
 
