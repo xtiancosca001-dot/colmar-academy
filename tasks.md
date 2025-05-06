@@ -34,6 +34,6 @@
 [x] Thesis
     [x] Regular
     [x] Responsive
-[] Footer
+[x] Footer
     [x] Regular
-    [] Responsive
+    [x] Responsive

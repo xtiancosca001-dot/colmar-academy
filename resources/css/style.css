@@ -452,5 +452,9 @@ footer ul li a {
     .thesis .thesis-exhibits .urban .urban-video {
         margin-bottom: 24px;
     }
+    
     /* Footer - mobile */
+    footer ul {
+        display: none;
+    }
 }
